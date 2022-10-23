@@ -1,6 +1,8 @@
 # Simulation-of-body-orientation-using-gyro-values
 Graphical simulation of the orientation of a body using its angular velocity data over time. The angular velocity values can be obtained, for example, by an arduino reading an IMU. The important thing is to get the data as shown in the "data.txt" file, so that it can be handled by the program.
 
+**The software presents a correct way of calculating orientation and the wrong way that is widespread in the community.** It shows the final differences between the two methods.
+
 ![](https://github.com/TiagoARAlves/Simulation-of-body-orientation-using-gyro-values/blob/main/animation.gif)
 
 # Program dependencies:
